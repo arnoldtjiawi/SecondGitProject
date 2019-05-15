@@ -28,6 +28,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+        print("Saved coordinate!")
     }
     
     override func viewWillAppear(_ animated: Bool) {
